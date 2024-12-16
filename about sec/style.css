@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://source.unsplash.com/1600x900/?chat,technology,connect') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .about-container {
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7));
+    padding: 60px;
+    margin: 20px;
+    max-width: 850px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  }
+
+  .about-container h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #ffdd57;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  }
+
+  .about-container p {
+    font-size: 1.25em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #f1f1f1;
+  }
+
+  .about-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  .about-container ul li {
+    font-size: 1.2em;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    color: #e3e3e3;
+  }
+
+  .about-container ul li::before {
+    content: '\2728';
+    color: #ffdd57;
+    margin-right: 12px;
+    font-size: 1.5em;
+  }
+
+  .cta-button {
+    display: block;
+    text-align: center;
+    background-color: #ffdd57;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin: 40px auto 0;
+    max-width: 320px;
+    transition: transform 0.3s, background-color 0.3s;
+    font-size: 1.2em;
+  }
+
+  .cta-button:hover {
+    background-color: #ffd633;
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 40px;
+    }
+
+    .about-container h1 {
+      font-size: 2.5em;
+    }
+
+    .about-container p {
+      font-size: 1.1em;
+    }
+
+    .cta-button {
+      font-size: 1em;
+      padding: 12px 25px;
+    }
+  }

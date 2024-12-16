@@ -28,21 +28,21 @@ body {
 
 .login form{
     padding: 20px;
-    background-color:rgb(186, 193, 190) ;
+    background-color:rgb(66, 122, 219) ;
     box-shadow: 5px 5px 10px gray;
     border-radius: 15px;
-    background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+    background: -webkit-linear-gradient(30deg,#1d60a3,#3d71a6,#0059b3
 , #0073e6);
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
-    margin: 40px 0;
+    font-size: 25px;
+    margin: 10px 140px 35px 0px;
 }
 
 .login h3 {
-    font-size: 22px;
+    font-size: 17px;
     margin: 5px 0;
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     
@@ -63,7 +63,8 @@ button {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    margin: 8px;
+    margin: 8px 0;
+    padding: 5px 15px;
     border-radius: 7px;
     transition: 0.8s;
     box-shadow: 0 0 10px #b7bfb6;
@@ -83,10 +84,16 @@ form:hover{
     
 }
 .pass-link{
+    /* outline: solid 2px red; */
     /* display: flex; */
     flex-direction: row;
     /* align-items: ; */
     margin: 10px 50px 20px 5px;
+}
+.pass-link a{
+    /* all: unset; */
+    color: blue;
+    margin-left: 10px;
 }
 .signup{
     color: blue;
